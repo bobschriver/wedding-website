@@ -2,6 +2,53 @@ body {
     min-height: 2000px;
 
     font-family:"helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color:#D4B0A7;
+}
+
+/* Colors
+Dark Red #CC6450
+Pink #D4B0A7
+Chartruese #D0D1A2
+Teal #8CBEA4
+Yellow #E0B947
+
+*/
+
+.top-info {
+    margin-left:auto;
+    margin-right:auto;
+
+    width:500px;
+
+
+    background-color:rgba(140, 190, 160, 0.9);
+
+    position:relative;
+    top:25%;
+
+}
+
+.top-info .name {
+    text-align:center;
+    font-size: 30px;
+}
+
+.top-info .date {
+    text-align:center;
+    font-size:24px;
+}
+
+.top-info .location {
+    text-align:center;
+    font-size:18px;
+}
+
+.container .main {
+    background-color:#8CBEA4;
+}
+
+.navbar {
+    background-color:#E0B947;
 }
 
 .carousel {
@@ -14,9 +61,11 @@ body {
 }
 
 .parallax {
+    margin-top:50px;
+
     background-image: url("std.jpg");
 
-    height: 950px;
+    height: 500px;
 
     background-attachment: fixed;
     background-position: center;
@@ -58,3 +107,5 @@ body {
 .img-subheading {
     height:200px;
 }
+
+
