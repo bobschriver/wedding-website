@@ -1,7 +1,7 @@
 body {
     min-height: 2000px;
 
-    font-family:"helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Raleway', sans-serif;
     background-color:#D4B0A7;
 }
 
@@ -18,7 +18,7 @@ Yellow #E0B947
     margin-left:auto;
     margin-right:auto;
 
-    width:500px;
+    width:700px;
 
 
     background-color:rgba(140, 190, 160, 0.9);
@@ -30,17 +30,17 @@ Yellow #E0B947
 
 .top-info .name {
     text-align:center;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .top-info .date {
     text-align:center;
-    font-size:24px;
+    font-size:30px;
 }
 
 .top-info .location {
     text-align:center;
-    font-size:18px;
+    font-size:22px;
 }
 
 .container .main {
