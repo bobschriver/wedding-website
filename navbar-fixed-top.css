@@ -20,12 +20,15 @@ Yellow #E0B947
 
     width:600px;
 
-
-    background-color:rgba(140, 190, 160, 0.9);
+    background-color:rgba(140, 190, 164, 0.9);
 
     position:relative;
     top:25%;
 
+    border-style:inset;
+    border-width:thick;
+
+    border-color:rgba(170, 220, 194, 0.9);
 }
 
 .top-info .name {
@@ -44,7 +47,15 @@ Yellow #E0B947
 }
 
 .container .main {
-    background-color:#8CBEA4;
+    background-color:rgb(140, 190, 164);
+    padding:20px;
+
+    border-style:solid;
+    border-width:thin;
+
+    border-color:rgb(170, 220, 194);
+
+    margin-top:20px;
 }
 
 .navbar {
@@ -65,7 +76,7 @@ Yellow #E0B947
 
     background-image: url("std.jpg");
 
-    height: 500px;
+    height: 650px;
 
     background-attachment: fixed;
     background-position: center;
@@ -106,6 +117,8 @@ Yellow #E0B947
 
 .img-subheading {
     height:200px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 
