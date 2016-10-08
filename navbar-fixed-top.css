@@ -12,23 +12,23 @@ Chartruese #D0D1A2
 Teal #8CBEA4
 Yellow #E0B947
 
-*/
+ */
 
 .top-info {
-    margin-left:auto;
-    margin-right:auto;
+        margin-left:auto;
+        margin-right:auto;
 
-    width:600px;
+        width:600px;
 
-    background-color:rgba(140, 190, 164, 0.9);
+        background-color:rgba(140, 190, 164, 0.9);
 
-    position:relative;
-    top:25%;
+        position:relative;
+        top:25%;
 
-    border-style:inset;
-    border-width:thick;
+        border-style:inset;
+        border-width:thick;
 
-    border-color:rgba(170, 220, 194, 0.9);
+        border-color:rgba(170, 220, 194, 0.9);
 }
 
 .top-info .name {
@@ -56,6 +56,7 @@ Yellow #E0B947
     border-color:rgb(170, 220, 194);
 
     margin-top:20px;
+    margin-bottom:100px;
 }
 
 .navbar {
@@ -76,7 +77,7 @@ Yellow #E0B947
 
     background-image: url("std.jpg");
 
-    height: 650px;
+    height: 750px;
 
     background-attachment: fixed;
     background-position: center;
@@ -121,4 +122,6 @@ Yellow #E0B947
     margin-right:auto;
 }
 
-
+.btn {
+    font-size:21px;
+}
