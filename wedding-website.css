@@ -14,16 +14,15 @@ Yellow #E0B947
 
  */
 
-.top-info {
-        margin-left:auto;
-        margin-right:auto;
+.top-container {
+    position:relative;
+    top:25%;
+}
 
-        width:600px;
+.top-info {
 
         background-color:rgba(140, 190, 164, 0.9);
 
-        position:relative;
-        top:25%;
 
         border-style:inset;
         border-width:thick;
@@ -120,6 +119,10 @@ Yellow #E0B947
     height:200px;
     margin-left:auto;
     margin-right:auto;
+}
+
+.img-carousel-landscape {
+    max-width:80%;
 }
 
 .btn {
